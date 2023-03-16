@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="176dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="224dp"
+        app:srcCompat="@drawable/icon_start" />
+
+    <RadioGroup
+        android:id="@+id/rps"
+        android:layout_width="126dp"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="226dp">
+
+        <RadioButton
+            android:id="@+id/rock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock" />
+
+        <RadioButton
+            android:id="@+id/paper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paper" />
+
+        <RadioButton
+            android:id="@+id/scissor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scissor" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="294dp"
+        android:text="VS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="575dp"
+        android:text="Volume Control"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:id="@+id/volume"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="479dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/volume25"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:text="25%" />
+
+        <RadioButton
+            android:id="@+id/volume50"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="50%" />
+
+        <RadioButton
+            android:id="@+id/volume75"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="75%" />
+
+        <RadioButton
+            android:id="@+id/volume100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100%" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="427dp"
+        android:text="Rock Paper Scissor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="Play" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="Score" />
+
+    <TextView
+        android:id="@+id/winorlose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="MAKE A SELECTION" />
+
+</RelativeLayout>

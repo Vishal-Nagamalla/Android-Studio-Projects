@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="color"
+        android:text="Color Change"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/rnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="rnd"
+        android:text="Rnd Size"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/swap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="swap"
+        android:text="Swap Text"
+        app:backgroundTint="#3F51B5" />
+</LinearLayout>

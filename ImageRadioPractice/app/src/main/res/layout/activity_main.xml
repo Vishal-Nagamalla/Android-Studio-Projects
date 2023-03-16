@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="600dp"
+        android:text="Choose a Wizard"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="500dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Harry"
+            android:gravity="center"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="Harry" />
+
+        <RadioButton
+            android:id="@+id/Hermione"
+            android:gravity="center"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Hermione" />
+
+        <RadioButton
+            android:id="@+id/Ron"
+            android:gravity="center"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Ron" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="333dp"
+        android:layout_height="278dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp"
+        app:srcCompat="@drawable/harry_potter_logo" />
+</RelativeLayout>
